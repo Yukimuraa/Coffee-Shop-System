@@ -1,0 +1,54 @@
+*{
+    font-family: monospace;
+    font-weight: 900;
+}
+
+
+.box{
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid black;
+    padding: 12px;
+   margin: 50px auto;
+   border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+select,input[type=number]{
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+    text-align: left;
+}
+button[type=submit]{
+    padding: 12px;
+    background-color: crimson;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+h1{
+    text-align: center;
+}
+.Back{
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}

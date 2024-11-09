@@ -1,0 +1,59 @@
+body{
+    background-image: url(image/top-view-roasted-coffee-beans-with-copy-space.jpg); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.box{
+    width: 100%;
+    max-width: 320px;
+    /* border: 1px solid #ddd; */
+    padding: 12px;
+    /* margin: 50px auto; */
+    margin-left: 150px;
+    /* background-color: white; */
+    border-radius: 5px;
+}
+
+input[type=email],input[type=password]{
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+button[type=submit]{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    outline: none;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+        color: white;
+}
+p,a{
+    text-align: center;
+    color: white;
+}

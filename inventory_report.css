@@ -1,0 +1,27 @@
+body{
+    font-weight: 900;
+    font-family: monospace;
+}
+
+
+.Back{
+    background-color: green;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.Total{
+    width: 300px;
+    background-color: blue;
+    color: white;
+    padding: 12px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+
+    
+}
